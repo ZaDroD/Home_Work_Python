@@ -11,4 +11,13 @@ for i in range (0, len(subs)):
     if duplicate == 0:
         alone.append(subs[i])
 print(alone)
+
+
 # Пригодится)))
+
+# Есть еще такой вариант
+
+
+# numbers=list(map(int,input('Введите последовательность чисел через пробел: ').split()))
+
+# print("Cписок неповторяющихся элементов исходной последовательности: ", list(set(numbers)))
